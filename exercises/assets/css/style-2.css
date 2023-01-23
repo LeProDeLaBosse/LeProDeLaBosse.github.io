@@ -3,7 +3,7 @@
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
-body { max-width: 1600px; line-height: 1.5; margin-left: auto; margin-right: auto; 
+body { line-height: 1.5; margin-left: auto; margin-right: auto; 
 min-height: 100vh; text-rendering: optimizeSpeed }  
 img { width: 100%; height: auto; display: block }
 h1, h2, h3, h4 { width: 100% }
@@ -255,10 +255,19 @@ body {
 }
 
 /* Desktops */
-@media (min-width: 768px) { section { padding: 4% 20% } }
+@media (min-width: 768px) {
+    section { padding: 5% 4% }
+    section.w-800px > * { max-width: 800px; margin-left: auto; margin-right: auto;}
+    section.w-1024px > * { max-width: 1024px; margin-left: auto; margin-right: auto;}
+    section.w-1140px > * { max-width: 1140px; margin-left: auto; margin-right: auto;}
+    section.w-1536px > * { max-width: 1536px; margin-left: auto; margin-right: auto;}
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) { section { padding: 5% 6% } }
 
 /* Mobiles */
-@media (max-width: 767px) { section { padding: 12% 8% } }
+@media (max-width: 767px) { section { padding: 32px 9% 42px 9% } }
 
 
 section {
@@ -267,6 +276,7 @@ section {
 
 .section-1 {
     background-color: indigo;
+    text-align: center;
 }
 
 .section-1 h2,
