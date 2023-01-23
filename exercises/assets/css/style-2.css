@@ -276,7 +276,6 @@ section {
 
 .section-1 {
     background-color: indigo;
-    text-align: center;
 }
 
 .section-1 h2,
@@ -323,4 +322,12 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+
+/* Utility Class */
+@media (min-width: 800px) {
+    .text-centre-desktop {text-align: center}
+}
+@media (min-width: 767px) {
+    .text-centre-mobile {text-align: center}
 }
