@@ -1,0 +1,28 @@
+/* Add your custom CSS here */
+.section-selector-1 {
+    background-color: var(--lime-400);
+}
+
+.theme-light.section-selector-2 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--gray-200) }
+
+.section-selector-3 { background-color: var(--trend-800) }
+.section-selector-3 .col-1 h2 { color: var(--sky-300) }
+.section-selector-3 .col-1 h3 { color: var(--slate-200) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--sky-300) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] p { color: var(--slate-200) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] li { color: var(--slate-200) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] { background-color: var(--trend-700) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--sky-300) }
+
+.section-selector-4  h2 { color: #000; }
+.section-selector-4 { background-color: var(--green-200) }
+.section-selector-4 > h2 span.highlight { color: var(--gray-600) }
+
+
+/*.section-selector-5 {
+
+}
+
+.section-selector-6 {
+
+}*/
