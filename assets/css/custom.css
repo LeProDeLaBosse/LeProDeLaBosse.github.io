@@ -1,0 +1,47 @@
+/* Add your custom CSS here */
+
+header.theme-dark { background-color: var(--trend-700) }
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--black-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: var(--white-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { background-color: var(--black-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--white-000) }
+
+.section-selector-1 .col-3 .badge { background-color: var(--white-000) }
+.section-selector-1.theme-light .col-3 { border-color: var(--white-000) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--white-000) }
+
+.section-selector-1.theme-light .cols-background .col-3 { background-color: var(--white-000) }
+.section-selector-1 { background-color: var(--trend-700) }
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--black-000) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--black-000) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--white-000) }
+
+.section-selector-1 .col-3 h3 { color: var(--white-000) }
+.section-selector-1 .col-3 p { color: var(--white-000) }
+.section-selector-1 .col-3 li { color: var(--white-000) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--white-000) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: var(--black-000) }
+
